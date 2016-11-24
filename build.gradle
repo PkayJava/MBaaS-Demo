@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.angkorteam.mbaas:plugin:1.1.8'
+        classpath 'com.angkorteam.mbaas:plugin:1.1.9'
         classpath 'com.mashape.unirest:unirest-java:' + '1.4.9'
         classpath 'org.sql2o:sql2o:1.6.0-RC3'
         classpath 'org.xerial:sqlite-jdbc:3.15.1'
@@ -74,12 +74,14 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:' + '3.5'
     compile 'commons-io:commons-io:' + '2.5'
 
+    compile 'com.mashape.unirest:unirest-java:' + '1.4.9'
+
     compile 'javax.servlet:javax.servlet-api:' + '3.1.0'
 
     compile 'com.mashape.unirest:unirest-java:' + '1.4.9'
     compile 'org.codehaus.groovy:groovy-all:' + '2.4.7'
 
-    compile 'com.angkorteam.mbaas:plugin:1.1.8'
+    compile 'com.angkorteam.mbaas:plugin:1.1.9'
 
     compile 'commons-io:commons-io:' + '2.5'
     compile 'com.google.code.gson:gson:2.8.0'
