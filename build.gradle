@@ -1,5 +1,5 @@
 ext {
-    mbaaspluginVersion = '1.3.7'
+    mbaaspluginVersion = '1.3.9'
     gsonVersion = '2.8.0'
     jodatimeVersion = '2.9.4'
     jooqVersion = '3.8.6'
@@ -29,7 +29,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.angkorteam.mbaas:plugin:1.3.7'
+        classpath 'com.angkorteam.mbaas:plugin:1.3.9'
         classpath 'com.mashape.unirest:unirest-java:' + '1.4.9'
         classpath 'org.sql2o:sql2o:1.6.0-RC3'
         classpath 'org.xerial:sqlite-jdbc:3.15.1'
@@ -89,13 +89,12 @@ dependencies {
     compile 'com.google.guava:guava:20.0'
     compile 'org.apache.commons:commons-lang3:3.5'
 
-    compile 'com.angkorteam.framework.extension:framework-extension:' + '1.2.5'
+    compile 'com.angkorteam.framework.extension:framework-extension:' + '1.2.8'
 }
 
 mbaas {
     database = 'mbaas.db'
     server = 'http://mbaas.angkorteam.com'
-    // server = 'http://localhost:9080'
     login = 'service'
     password = 'service'
 }
